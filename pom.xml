@@ -6,7 +6,8 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>  
   <groupId>com.mutahir</groupId>  
   <artifactId>application</artifactId>  
-  <version>1.0</version>  
+  <version>1.1</version>  
+  
   
   <dependencies>
   <dependency>
@@ -21,5 +22,15 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<version>4.13.2</version>
 		<scope>test</scope>
 	</dependency>
+	<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.14.0</version>
+  </dependency>
+  <dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.14.0</version>
+  </dependency>
   </dependencies>
 </project>

@@ -4,10 +4,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Application {
-	final Logger LOGGER = LogManager.getLogger();
+	final Logger logger = LogManager.getLogger();
     public Application() {
     	
-    	LOGGER.debug("Inside Application");
+    	logger.debug("Inside Application");
  
         
     }
@@ -15,7 +15,7 @@ public class Application {
     //this is a just a test
     //nothing else
     public void doNothing() {
-    	LOGGER.debug("test");
+    	logger.debug("test");
     }
 
     // method main(): ALWAYS the APPLICATION entry point

@@ -21,7 +21,7 @@ public class Application {
     // method main(): ALWAYS the APPLICATION entry point
     public static void main (String[] args) {
     	
-    	//TODO
+   
 	Application app = null;
 	app = new Application();
 	app.doNothing();
